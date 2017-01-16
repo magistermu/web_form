@@ -26,9 +26,9 @@
 
 <%= form_for @user do |f| %>
   <%= f.label :username, "Usuario:" %>
-  <%= f.text_field :username, value: "Su usuario aquí" %>
+  <%= f.text_field :username %>
   <%= f.label :email, "Email:" %>
-  <%= f.email_field :email, value: "Su correo aquí" %>
+  <%= f.email_field :email %>
   <%= f.label :password, "Contraseña:" %>
   <%= f.password_field :password %>
   <%= f.submit "Crear" %>
